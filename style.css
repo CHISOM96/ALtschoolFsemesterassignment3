@@ -18,13 +18,19 @@ padding-top: 56px;
 .checkout-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .checkout-left-panel {
-  width: 75%;
+  width: 65%;
+  border-radius: 6px;
+  background: #FFF;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
+
 }
 
 .checkout-right-panel {
-  width: 25%;
+  width: 35%;
+  border-radius: 0px 6px 6px 0px;
+  background: #1179BF;
 }
