@@ -2,3 +2,29 @@ html {
   height: 100%;
   width: 100%;
 }
+
+body {
+  background: #F5F8FA;
+}
+
+padding-top: 56px;
+/* Adjust body padding to avoid content hidden behind the fixed navbar */
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.checkout-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.checkout-left-panel {
+  width: 75%;
+}
+
+.checkout-right-panel {
+  width: 25%;
+}
